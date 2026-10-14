@@ -1,0 +1,116 @@
+<div id="bscPopup"
+  class="modal pointer-events-none fixed inset-0 z-[999] grid h-screen w-screen place-items-center bg-black bg-opacity-60 opacity-0 backdrop-blur-sm transition-opacity duration-300">
+  <div class="relative lg:w-[800px] lg:max-w-[90%] max-w-[100%] rounded-lg bg-black shadow-sm">
+    <div class="absolute right-0 z-[999]">
+      <button class="close-modal p-3" type="button" aria-label="close-modal">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 24 24">
+          <path fill="white"
+            d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div class="relative leading-normal text-slate-600 font-light">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-[50%]">
+            <img loading="lazy" class="hidden lg:block" src="./assets/img/popup/popup.webp" alt="" width="100%" height="100%">
+            <img loading="lazy" class="lg:hidden block" src="./assets/img/popup/popup-mob.webp" alt="" width="100%" height="100%">
+        </div>
+        <div class="w-full lg:w-[50%] px-5 py-3 flex justify-center flex-col">
+          <div>
+            <form id="frm_admission_open_animation1" name="frm_admission_open" method="post" enctype="multipart/form-data" action="<?php echo base_url('leads.php');?>">
+              <div>
+                <p class="text-[#F08A31] text-[26px] text-center pb-3 font-semibold">Contact Us</p>
+              </div>
+              <div class="mb-3">
+                <input
+                  class="block w-full rounded border-0 px-4 py-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  type="text" placeholder="Name" name="name" required>
+              </div>
+              <div class="mb-3">
+                <input
+                  class="block w-full rounded border-0 px-4 py-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  type="email" placeholder="Email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <input
+                  class="block w-full rounded border-0 px-4 py-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  type="text" placeholder="Phone" name="phone" required pattern="[1-9]{1}[0-9]{9}" maxlength="10">
+              </div>
+              <div class="mb-3">
+                  <label for="q"></label>
+                <select id="qualification" name="educational_qualification" autocomplete="none"
+                  class="block w-full rounded border-0 px-4 py-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required>
+                  <option value="">Qualification</option>
+                  <option value="">Qualification</option>
+                  <option>Completed Class 10</option>
+                  <option>Completing HS in 2026</option>
+                  <option>Pursuing Graduation / Graduate</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                  <label for="course"></label>
+                <select id="course" name="course" autocomplete="none"
+                  class="block w-full rounded border-0 px-4 py-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required>
+                  <option value="">Select Course</option>
+                  <option value="BSc in Animation Film Making">BSc in Animation Film Making</option>
+                    <option value="BSc in VFX Film Making">BSc in VFX Film Making</option>
+                    <option value="BBA in Digital Marketing">BBA in Digital Marketing</option>
+                    <option value="BSC in Multimedia, Design and Web Development">BSC in Multimedia, Design and Web Development</option>
+                    <option value="BSc in Cyber Security">BSc in Cyber Security</option>
+                    <option value="Bachelor of Computer Application">Bachelor of Computer Application</option>
+                    <option value="Advanced 3D Animation & AI">Advanced 3D Animation & AI</option>
+                    <option value="2D Animation & AI">2D Animation & AI</option>
+                    <option value="3D Modelling & AI">3D Modelling & AI</option>
+                    <option value="Visual Effects & AI">Visual Effects & AI</option>
+                    <option value="Advanced Graphic Design & AI">Advanced Graphic Design & AI</option>
+                    <option value="Web Design & AI">Web Design & AI</option>
+                    <option value="Digital Marketing & AI">Digital Marketing & AI</option>
+                    <option value="3D Gaming">3D Gaming</option>
+                    <option value="Bachelor of Computer Application">Bachelor of Computer Application</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                  <label for="loc"></label>
+                <select id="location" name="location" autocomplete="country-name" aria-label="city"
+                    class="block w-full rounded border-0 px-4 py-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required>
+                    <option value="">Select Branch</option>
+                    <option value="Baguihati">Baguihati</option>
+                    <option value="Barasat">Barasat</option>
+                    <option value="Berhampore">Berhampore</option>
+                    <option value="Chandannagar">Chandannagar</option>
+                    <option value="Chowringhee">Chowringhee</option>
+                    <option value="Guwahati">Guwahati</option>
+                    <option value="Jodhpur Park">Jodhpur Park</option>
+                    <!--<option value="Kudghat">Kudghat</option>-->
+                    <option value="New Alipore">New Alipore</option>
+                    <option value="Sealdah">Sealdah</option>
+                    <option value="Serampore">Serampore</option>
+                    <option value="Siliguri">Siliguri</option>
+                    <option value="Sonarpur">Sonarpur</option>
+                    <!--<option value="Thane">Thane</option>-->
+                    <option value="Topsia">Topsia</option>
+                </select>
+              </div>
+              <div class="w-full px-2 flex justify-center scale-[.8]">
+                <div class="g-recaptcha" data-sitekey="6Lf9ePspAAAAALVVScUj3pDoYvTqyvwPF9nX2Acz" data-callback="verifyCaptcha"></div>
+                <div id="captcha-error3214animation1" class="text-center fw-bold mt-3" style="color: red;"></div>
+            </div>
+              <div>
+                <input type="hidden" name="utm_source" value="<?php echo (isset($_GET['utm_source']) && $_GET['utm_source']!='') ? $_GET['utm_source'] : '';?>" />
+                <input type="hidden" name="utm_medium" value="<?php echo (isset($_GET['utm_medium']) && $_GET['utm_medium']!='') ? $_GET['utm_medium'] : '';?>" />
+                <input type="hidden" name="utm_campaign" value="<?php echo (isset($_GET['utm_campaign']) && $_GET['utm_campaign']!='') ? $_GET['utm_campaign'] : '';?>" />
+                <input type="hidden" name="redirect_from" value="moopleLP-DownloadProspectus">
+
+                <button type="submit"
+                  class="text-[#FFF] w-full px-5 py-2 rounded flex justify-center items-center gap-x-2 bg-gradient-to-r from-[#F08A31] to-[#B5341D]">Submit
+                  <img src="./assets/icons/send.png" alt=""></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

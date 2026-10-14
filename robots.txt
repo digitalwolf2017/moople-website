@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /under-construction
+
+Sitemap: https://www.moople.in/sitemap.xml

@@ -1,0 +1,68 @@
+<div
+    class="px-5 pt-1 pb-6 bg-gradient-to-b from-[#000000] to-[#000000cc] max-w-full w-[400px] mx-auto shadow-[0px_1px_2px_#ffffff70] shadow-white rounded">
+    <form id="frm_admission_open_animation1" name="frm_admission_open" method="post" enctype="multipart/form-data" action="<?php echo base_url('leads.php');?>">
+        <div>
+            <p class="text-[#FFF] text-[25px] text-center py-3 font-semibold">Connect with our <span
+                    class="text-[#F08A31]">Counselor</span></p>
+        </div>
+        <div class="mb-5">
+            <input
+                class="block w-full rounded border-0 p-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                type="text" placeholder="Name" name="name" required>
+        </div>
+        <div class="mb-5">
+            <input
+                class="block w-full rounded border-0 p-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                type="email" placeholder="Email" name="email" required>
+        </div>
+        <div class="mb-5">
+            <input
+                class="block w-full rounded border-0 p-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                type="text" placeholder="Phone" name="phone" required pattern="[1-9]{1}[0-9]{9}" maxlength="10">
+        </div>
+        <div class="mb-5">
+            <select id="qualification" name="educational_qualification" autocomplete="none"
+                class="block w-full rounded border-0 p-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required>
+                <option value="">Qualification</option>
+                <option>Completed Class 10</option>
+                  <option>Completing HS in 2026</option>
+                  <option>Pursuing Graduation / Graduate</option>
+                  <option>Others</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <select id="course" name="course" autocomplete="none"
+                class="block w-full rounded border-0 p-2 bg-[#FFF] text-[#000] shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" required>
+                <option value="">Select Course</option>
+                <option value="BSc in Animation Film Making">BSc in Animation Film Making</option>
+                <option value="Advanced 3D Animation & AI">Advanced 3D Animation & AI</option>
+                <option value="2D Animation & AI">2D Animation & AI</option>
+                <option value="3D Modelling & AI">3D Modelling & AI</option>
+                <option value="BSc in VFX Film Making">BSc in VFX Film Making</option>
+                <option value="Visual Effects & AI">Visual Effects & AI</option>
+                <option value="Motion Graphics, Video Editing & AI">Motion Graphics, Video Editing & AI</option>
+                <option value="Advanced Graphic Design & AI">Advanced Graphic Design & AI</option>
+                <option value="Graphic Design & AI">Graphic Design & AI</option>
+                <option value="Web Design & AI">Web Design & AI</option>
+                <option value="UI/UX Design & AI">UI/UX Design & AI</option>
+                <option value="Digital Marketing & AI">Digital Marketing & AI</option>
+            </select>
+        </div>
+        <div class="w-full px-2 pb-2 flex justify-center scale-[.9]">
+            <div class="g-recaptcha" data-sitekey="6Lf9ePspAAAAALVVScUj3pDoYvTqyvwPF9nX2Acz" data-callback="verifyCaptcha"></div>
+                  <div id="captcha-error3214animation1" class="text-center fw-bold mt-3" style="color: red;"></div>
+        </div>
+        <div>
+            <input type="hidden" name="utm_source" value="<?php echo (isset($_GET['utm_source']) && $_GET['utm_source']!='') ? $_GET['utm_source'] : '';?>" />
+            <input type="hidden" name="utm_medium" value="<?php echo (isset($_GET['utm_medium']) && $_GET['utm_medium']!='') ? $_GET['utm_medium'] : '';?>" />
+            <input type="hidden" name="utm_campaign" value="<?php echo (isset($_GET['utm_campaign']) && $_GET['utm_campaign']!='') ? $_GET['utm_campaign'] : '';?>" />
+
+            <input type="hidden" name="redirect_from" value="<?php echo $page_name;?> centres page">
+            <input type="hidden" name="location" value="<?php echo $page_name;?>">
+                
+            <button type="submit"
+                class="text-[#FFF] w-full px-5 py-2 rounded flex justify-center items-center gap-x-2 bg-gradient-to-r from-[#F08A31] to-[#B5341D]">Submit
+                <img src="./assets/icons/send.png" alt=""></button>
+        </div>
+    </form>
+</div>

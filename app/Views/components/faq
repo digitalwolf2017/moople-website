@@ -1,0 +1,99 @@
+<section class="pt-12 pb-6" id="faq">
+    <div class="container mx-auto px-4">
+        <div class="pb-6">
+            <div class="py-5">
+                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Resolve your
+                    Queries</span>
+            </div>
+            <div>
+                <h2 class="text-white text-[35px] font-semibold">Frequently Asked Questions (FAQs)</h2>
+                <p class="text-white">Discover the future of digital artistry with our comprehensive programs. Explore
+                    Our Cutting-Edge Courses in VFX, Animation, Graphics, Web & Digital marketing to turn your creative
+                    dreams into reality.</p>
+            </div>
+        </div>
+        <div class="flex flex-wrap gap-x-10 gap-y-3">
+
+            <!-- Accordion Item 1 -->
+            <div class="w-[100%] lg:w-[45%] h-full border-b border-slate-200 bg-[#353535] rounded-lg px-3 my-2">
+                <button onclick="faqAccordion(1)" class="w-full flex justify-between items-center py-5 text-slate-100">
+                    <span class="text-[18px]">How to use Material Tailwind?</span>
+                    <span id="faqIcon-1" class="text-slate-800 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                            <path fill="white"
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                        </svg>
+                    </span>
+                </button>
+                <div id="faqContent-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="py-5 text-sm text-white border-t-[1px] border-[#4E4E4E]">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestiae! Eligendi,
+                            laborum. Sint dignissimos est nostrum, dolores quasi hic, laudantium numquam illum et
+                            voluptate dolore similique, animi sit corporis a!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="w-[100%] lg:w-[45%] h-full border-b border-slate-200 bg-[#353535] rounded-lg px-3 my-2">
+                <button onclick="faqAccordion(2)" class="w-full flex justify-between items-center py-5 text-slate-100">
+                    <span class="text-[18px]">How to use Material Tailwind?</span>
+                    <span id="faqIcon-2" class="text-slate-800 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                            <path fill="white"
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                        </svg>
+                    </span>
+                </button>
+                <div id="faqContent-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="py-5 text-sm text-white border-t-[1px] border-[#4E4E4E]">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestiae! Eligendi,
+                            laborum. Sint dignissimos est nostrum, dolores quasi hic, laudantium numquam illum et
+                            voluptate dolore similique, animi sit corporis a!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="w-[100%] lg:w-[45%] h-full border-b border-slate-200 bg-[#353535] rounded-lg px-3 my-2">
+                <button onclick="faqAccordion(3)" class="w-full flex justify-between items-center py-5 text-slate-100">
+                    <span>What can I do with Material Tailwind?</span>
+                    <span id="faqIcon-3" class="text-slate-800 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                            <path fill="white"
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                        </svg>
+                    </span>
+                </button>
+                <div id="faqContent-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="py-5 text-sm text-white border-t-[1px] border-[#4E4E4E]">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestiae! Eligendi,
+                            laborum. Sint dignissimos est nostrum, dolores quasi hic, laudantium numquam illum et
+                            voluptate dolore similique, animi sit corporis a!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="w-[100%] lg:w-[45%] h-full border-b border-slate-200 bg-[#353535] rounded-lg px-3 my-2">
+                <button onclick="faqAccordion(4)" class="w-full flex justify-between items-center py-5 text-slate-100">
+                    <span>What can I do with Material Tailwind?</span>
+                    <span id="faqIcon-4" class="text-slate-800 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                            <path fill="white"
+                                d="M8.75 3.75a.75.75 0 0 0-1.5 0v3.5h-3.5a.75.75 0 0 0 0 1.5h3.5v3.5a.75.75 0 0 0 1.5 0v-3.5h3.5a.75.75 0 0 0 0-1.5h-3.5v-3.5Z" />
+                        </svg>
+                    </span>
+                </button>
+                <div id="faqContent-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="py-5 text-sm text-white border-t-[1px] border-[#4E4E4E]">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestiae! Eligendi,
+                            laborum. Sint dignissimos est nostrum, dolores quasi hic, laudantium numquam illum et
+                            voluptate dolore similique, animi sit corporis a!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

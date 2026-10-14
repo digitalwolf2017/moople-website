@@ -1,0 +1,83 @@
+<section class="py-12 bg-[#1C1C1C]">
+    <div class="container mx-auto px-4">
+        <div>
+            <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Moople
+                Achievers</span>
+            <h2 class="text-[#FFF] text-[35px] font-semibold mt-3">Building Careers Through Strategic Placement</h2>
+            <p class="text-[#FFF]">
+                Moople empowers students with real world opportunities ensuring that they can put to use the
+                comprehensive training and industry exposure received in the classroom.<br/> Through these success
+                stories we celebrate their achievements and look forward to seeing them thrive in their chosen
+                careers.
+            </p>
+        </div>
+        <div class="pt-8">
+            <div id="placement" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide relative">
+                            <div>
+                                <img src="./assets/img/placement/bappa-das.jpg" alt="" width="100%" height="100%">
+                                <div class="bg-[#171717] p-3">
+                                    <p class="text-[#F08A31] text-[23px] font-semibold">Bappa Das</p>
+                                    <p class="text-[#FFFFFF]">Position - 3D QA</p>
+                                    <p class="text-[#626262]">Company - <span
+                                            class="text-[#B5341D]">Amazon</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative">
+                            <div>
+                                <img src="./assets/img/placement/swarnali-ghorui.jpg" alt="" width="100%" height="100%">
+                                <div class="bg-[#171717] p-3">
+                                    <p class="text-[#F08A31] text-[23px] font-semibold">Swarnali Ghorui</p>
+                                    <p class="text-[#FFFFFF]">Position - 3D Junior Modeler</p>
+                                    <p class="text-[#626262]">Company - <span
+                                            class="text-[#B5341D]">Moonlight Animation Sudio</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative">
+                            <div>
+                                <img src="./assets/img/placement/rudra-kumar-manna.jpg" alt="" width="100%" height="100%">
+                                <div class="bg-[#171717] p-3">
+                                    <p class="text-[#F08A31] text-[23px] font-semibold">Rudra Kumar Manna</p>
+                                    <p class="text-[#FFFFFF]">Position - 3D Animation</p>
+                                    <p class="text-[#626262]">Company - <span
+                                        class="text-[#B5341D]">DB DESIGN TECH</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative">
+                            <div>
+                                <img src="./assets/img/placement/sayan-ray.jpg" alt="" width="100%" height="100%">
+                                <div class="bg-[#171717] p-3">
+                                    <p class="text-[#F08A31] text-[23px] font-semibold">Sayan Ray</p>
+                                    <p class="text-[#FFFFFF]">Position - 3D Artist</p>
+                                    <p class="text-[#626262]">Company - <span
+                                            class="text-[#B5341D]">Shreejan Associates</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative">
+                            <div>
+                                <img src="./assets/img/placement/poulami-pramanik.jpg" alt="" width="100%" height="100%">
+                                <div class="bg-[#171717] p-3">
+                                    <p class="text-[#F08A31] text-[23px] font-semibold">Poulami Pramanik</p>
+                                    <p class="text-[#FFFFFF]">Position - 3D Animator</p>
+                                    <p class="text-[#626262]">Company - <span
+                                            class="text-[#B5341D]">Cloudhouse Animation Studios</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,115 @@
+<section class="py-12" id="recruiters">
+    <div class="container mx-auto px-4">
+        <div class="pb-[2rem]">
+            <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Our
+                Recruiters</span>
+            <h2 class="text-[#FFF] text-[20px] lg:text-[35px] font-semibold mt-3">Finest Companies Recruit From Us</h2>
+            <p class="text-[#FFF]">Our recruiters rely on us to provide candidates who are ready to excel in the industry.<br class="hidden md:block"> Top companies trust us to provide the best talent.</p>
+        </div>
+    
+    <div class="pt-8">
+        <div id="brands" class="splide brand" aria-label="Splide Basic HTML Example">
+            <div class="splide__track pb-6">
+                <div class="splide__list">
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/123homepaints.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/colorbar.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/colorsbangla.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/cosmos.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/editfx.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/gener8.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/globsyn.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/woodgreek.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/whm.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/shreejan.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/folks.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/picture-post.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/free-biro.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/crazy-cub.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/aceenture.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/capgemini.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/cognizant.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/deloitte.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/hcl.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/ibm.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/infosys.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/pwc.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/tcs.webp" alt="" width="90%" height="100%">
+                    </div>
+                    <div class="splide__slide">
+                        <img class="p-3 md:grayscale md:hover:grayscale-0 rounded-[1.5rem] transition-all duration-500 ease"
+                            src="./assets/img/brands/wipro.webp" alt="" width="90%" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>

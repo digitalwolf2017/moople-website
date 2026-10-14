@@ -1,0 +1,45 @@
+<section class="py-12" id="payment">
+    <div class="container mx-auto px-4">
+        <div class="pb-6">
+            <div class="py-5">
+                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Degree Course</span>
+            </div>
+            <div>
+                <h2 class="text-white text-[35px] font-semibold">Course Fee and Payment Options</h2>
+            </div>
+        </div>
+        <div class="flex justify-between items-center px-4 py-2 bg-[#222222]">
+            <div>
+                <p class="text-white text-[30px] font-semibold">Fee Range: </p>
+                <p class="text-[#898989]">Fees may differ based on location and timing</p>
+            </div>
+            <div>
+                <p class="text-[#F08A31] text-[30px] font-semibold">&#8377; 4,50,000 - 5,65,000</p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center items-center gap-12 pt-20">
+            <div class="w-[100%] lg:h-[170px] lg:w-[30%] bg-[#222222] rounded-lg p-2 flex justify-between flex-col">
+                <div class="-mt-12">
+                    <img class="block mx-auto bg-[#111111] p-3.5 rounded-lg" src="./assets/icons/Scholarship.png" alt="" width="123" height="100%">
+                </div>
+                <div class="pt-3 lg:pt-0">
+                    <p class="text-white text-center pb-2 text-[14px] lg:text-[17px]">Scholarship available for <br/> eligible students</p>
+                </div>
+            </div>
+            <div class="w-[100%] lg:h-[170px] lg:w-[30%] bg-[#222222] rounded-lg p-2 flex justify-between flex-col">
+                <div class="-mt-12">
+                    <img class="block mx-auto bg-[#111111] p-3.5 rounded-lg" src="./assets/icons/card.png" alt="" width="175" height="100%">
+                </div>
+                <div class="pt-3 lg:pt-0">
+                    <p class="text-white text-center pb-2 text-[14px] lg:text-[17px]">West Bengal Student Credit Card Scheme
+                        <br>(For WB only)</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-white">Semester payments can also be made via Visa / Master Card / Rupay / UPI / Bank Transfer / Cheque / Demand Draft / Cash (upto 50k)</p>
+            </div>
+        </div>
+
+    </div>
+</section>

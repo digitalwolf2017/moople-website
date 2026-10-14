@@ -1,0 +1,27 @@
+<section class="bg-[#003366] hidden lg:block">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-evenly">
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="payment()">Payment Options</button>
+            </div>
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="faculties()">Industry Experts</button>
+            </div>
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="career()">Career Opportunities</button>
+            </div>
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="moopleAchiver()">Moople Achivers</button>
+            </div>
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="recruiters()">Recruiters</button>
+            </div>
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="testimonial()">Testimonial</button>
+            </div>
+            <div>
+                <button class="text-white hover:bg-[#012C58] hover:text-[#FFFFFF] px-6 py-5 transition duration-500" onclick="faq()">FAQ</button>
+            </div>
+        </div>
+    </div>
+</section>

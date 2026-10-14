@@ -1,0 +1,135 @@
+<section class="bg-[#000] py-5">
+            <div class="container mx-auto px-4">
+                <div>
+                    <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Our Courses</span>
+                    <h2 class="text-[#FFF] text-[35px] font-semibold mt-3">Course Offerings</h2>
+                    <p class="text-[#FFF]">Explore our industry relevant certificate and degree courses and start shaping your future today! Dive into our comprehensive programs in Animation,<br/> VFX, Web Design, Digital Marketing, Graphic Design to gain the skills you need to succeed! </p>
+                </div>
+                <div class="flex flex-wrap pt-6">
+                    
+                    <div class="w-[100%] md:w-[50%] lg:w-[33.33%] lg:p-8 p-6">
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-lg">
+                                <a href="animation-course">
+                                    <img class="transition duration-500 hover:scale-125" src="./assets/img/course/animation-3d-academy.jpg" alt="" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="absolute top-5 right-3">
+                                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Certificate Course</span>
+                            </div>
+                            <div class="absolute w-full bottom-0 left-0 px-3 py-3 bg-gradient-to-b from-[transparent] to-[#000]">
+                                <a href="animation-course">
+                                    <p class="text-[#F08A31] text-[18px] lg:text-[26px] pb-1 font-semibold leading-[25px] lg:leading-[40px]">Advanced 3D Animation & AI</p>
+                                </a>
+                                <p class="text-[#FFF] mb-3 text-[15px] lg:text-[17px] leading-[20px]">Learn to create dynamic 3D animations, using industry-standard software.</p>
+                                <a class="text-[#ababab] px-4 py-1 float-right transition duration-500" href="animation-course">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[100%] md:w-[50%] lg:w-[33.33%] lg:p-8 p-6">
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-lg">
+                                <a href="2d-animation-course">
+                                    <img class="transition duration-500 hover:scale-125" src="./assets/img/course/animation-2d-academy.jpg" alt="" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="absolute top-5 right-3">
+                                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Certificate Course</span>
+                            </div>
+                            <div class="absolute w-full bottom-0 left-0 px-3 py-3 bg-gradient-to-b from-[transparent] to-[#000]">
+                                <a href="2d-animation-course">
+                                    <p class="text-[#F08A31] text-[18px] lg:text-[26px] pb-1 font-semibold leading-[25px] lg:leading-[40px]">2D Animation & AI</p>
+                                </a>
+                                <p class="text-[#FFF] mb-3 text-[15px] lg:text-[17px] leading-[20px]">Master the art of 2D animation, using traditional techniques and digital tools to bring drawings to life.</p>
+                                <a class="text-[#ababab] px-4 py-1 float-right transition duration-500" href="2d-animation-course">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[100%] md:w-[50%] lg:w-[33.33%] lg:p-8 p-6">
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-lg">
+                                <a href="vfx-course">
+                                    <img class="transition duration-500 hover:scale-125" src="./assets/img/course/vxf-certificate-academy.jpg" alt="" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="absolute top-5 right-3">
+                                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Certificate Course</span>
+                            </div>
+                            <div class="absolute w-full bottom-0 left-0 px-3 py-3 bg-gradient-to-b from-[transparent] to-[#000]">
+                                <a href="vfx-course">
+                                    <p class="text-[#F08A31] text-[18px] lg:text-[26px] pb-1 font-semibold leading-[25px] lg:leading-[40px]">Visual Effects & AI</p>
+                                </a>
+                                <p class="text-[#FFF] mb-3 text-[15px] lg:text-[17px] leading-[20px]">Explore the fundamentals of VFX, including roto, paint, compositing and special effects to enhance visual storytelling.</p>
+                                <a class="text-[#ababab] px-4 py-1 float-right transition duration-500" href="vfx-course">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[100%] md:w-[50%] lg:w-[33.33%] lg:p-8 p-6">
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-lg">
+                                <a href="graphic-design-course">
+                                    <img class="transition duration-500 hover:scale-125" src="./assets/img/course/graphics-academy.jpg" alt="" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="absolute top-5 right-3">
+                                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Certificate Course</span>
+                            </div>
+                            <div class="absolute w-full bottom-0 left-0 px-3 py-3 bg-gradient-to-b from-[transparent] to-[#000]">
+                                <a href="graphic-design-course">
+                                    <p class="text-[#F08A31] text-[18px] lg:text-[26px] pb-1 font-semibold leading-[25px] lg:leading-[40px]">Advanced Graphic Design & AI</p>
+                                </a>
+                                <p class="text-[#FFF] mb-3 text-[15px] lg:text-[17px] leading-[20px]">Learn graphic design principles and softwares to create visually compelling designs for print and digital media.</p>
+                                <a class="text-[#ababab] px-4 py-1 float-right transition duration-500" href="graphic-design-course">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[100%] md:w-[50%] lg:w-[33.33%] lg:p-8 p-6">
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-lg">
+                                <a href="web-design-course">
+                                    <img class="transition duration-500 hover:scale-125" src="./assets/img/course/web-designing-pro.jpg" alt="" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="absolute top-5 right-3">
+                                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Certificate Course</span>
+                            </div>
+                            <div class="absolute w-full bottom-0 left-0 px-3 py-3 bg-gradient-to-b from-[transparent] to-[#000]">
+                                <a href="web-design-course">
+                                    <p class="text-[#F08A31] text-[18px] lg:text-[26px] pb-1 font-semibold leading-[25px] lg:leading-[40px]">Web Design & AI</p>
+                                </a>
+                                <p class="text-[#FFF] mb-3 text-[15px] lg:text-[17px] leading-[20px]">Develop skills to create visually appealing websites using modern design tools & techniques.</p>
+                                <a class="text-[#ababab] px-4 py-1 float-right transition duration-500" href="web-design-course">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[100%] md:w-[50%] lg:w-[33.33%] lg:p-8 p-6">
+                        <div class="relative">
+                            <div class="overflow-hidden rounded-lg">
+                                <a href="digital-marketing-course">
+                                    <img class="transition duration-500 hover:scale-125" src="./assets/img/course/digital-marketing-certificate.jpg" alt="" width="100%" height="100%">
+                                </a>
+                            </div>
+                            <div class="absolute top-5 right-3">
+                                <span class="bg-gradient-to-r from-[#F08A31] to-[#B5341D] text-[#FFF] px-4 py-1.5 rounded">Certificate Course</span>
+                            </div>
+                            <div class="absolute w-full bottom-0 left-0 px-3 py-3 bg-gradient-to-b from-[transparent] to-[#000]">
+                                <a href="digital-marketing-course">
+                                    <p class="text-[#F08A31] text-[18px] lg:text-[26px] pb-1 font-semibold leading-[25px] lg:leading-[40px]">Digital Marketing & AI</p>
+                                </a>
+                                <p class="text-[#FFF] mb-3 text-[15px] lg:text-[17px] leading-[20px]">Discover digital marketing strategies and tools to effectively promote products and services online.</p>
+                                <a class="text-[#ababab] px-4 py-1 float-right transition duration-500" href="digital-marketing-course">Know More</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div>
+                        <img class="block mx-auto max-w-full w-[400px]" src="./assets/img/course/all-courses-text.png" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="flex justify-center">
+                        <a class="border-[1px] border-[#808080] text-[#FFF] px-5 py-2 rounded-lg hover:bg-[#808080] hover:text-[#000000] transition-all duration-500 ease" href="courses">View all courses</a>
+                    </div>
+                </div>
+            </div>
+        </section>

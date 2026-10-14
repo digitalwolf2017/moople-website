@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+
+.testimonials .is-active {
+    transform: scale(1) !important;
+    transition: all .3s ease;
+}
+.testimonials .splide__slide {
+    transform: scale(.9);
+    transition: all .3s ease;
+}
+.splide__pagination {
+counter-reset: pagination-num;
+}
+.splide__pagination__page:before {
+counter-increment: pagination-num;
+content: counter( pagination-num );
+}.splide__pagination__page.is-active{
+    background: transparent;
+    border-left: 2px solid #fff;
+}
+@media (max-width:767px) {
+    .splide__pagination__page.is-active{
+        background: transparent;
+        border-left: 0;
+        border-bottom: 2px solid #fff;
+    }
+}
+.splide__slide.is-active > .text-con > .text-1{
+    transform: translateY(-50%);
+    transition: 1s;
+}
+.splide__slide.is-active > .text-con > .text-2{
+    transform: translateY(-20%);
+    transition: 1s;
+}
+.splide__slide.is-active > .text-con > .text-3{
+    transform: translateY(-60%);
+    transition: 1s;
+}
+.splide__slide.is-active > .text-con > .text-4{
+    transform: translateY(-70%);
+    transition: 1s;
+}
+@media (max-width:767px){
+    .splide__slide.is-active > .text-con > .text-1{
+    transform: translateY(-50%);
+    transition: 1s;
+    }
+    .splide__slide.is-active > .text-con > .text-2{
+        transform: translateY(-20%);
+        transition: 1s;
+    }
+    .splide__slide.is-active > .text-con > .text-3{
+        transform: translateY(-10%);
+        transition: 1s;
+    }
+    .splide__slide.is-active > .text-con > .text-4{
+        transform: translateY(-50%);
+        transition: 1s;
+    }
+}
+.splide__arrow svg{
+    fill: #fff !important;
+}

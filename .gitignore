@@ -1,0 +1,33 @@
+.zip*
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Generated logs
+*.log
+error_log
+
+# CodeIgniter writable runtime data
+/writable/cache/*
+!/writable/cache/.htaccess
+!/writable/cache/index.html
+/writable/logs/*
+!/writable/logs/.htaccess
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/.htaccess
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/.htaccess
+!/writable/uploads/index.html
+app-app-duplicate.zip
